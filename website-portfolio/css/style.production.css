@@ -3,7 +3,7 @@ body {
     font-weight: 400;
     font-size: 16px;
     line-height: 1.6;
-    background-color: #457b9d;
+    background-color: #219ebc;
 }
 
 h1 {
@@ -24,11 +24,11 @@ h3 {
 }
 
 a {
-    color: #f1faee
+    color: black;
 }
 
 a:visited {
-    color: #1d3557;
+    color: #023047;
 }
 
 a:hover,
@@ -37,7 +37,11 @@ a:focus {
 }
 
 a:active {
-    color: #1d3557;
+    color: #023047;
+}
+
+.social-media a {
+    text-decoration: none;
 }
 
 button {
@@ -101,6 +105,7 @@ button:focus,
 }
 
 .page-footer {
+    margin-top: 15%;
     clear: both;
     display: -webkit-box;
     display: -ms-flexbox;
@@ -116,6 +121,13 @@ button:focus,
     max-width: 700px;
     margin: 0 auto;
 }
+
+.profile_work {
+    max-width: 1500px;
+    margin: 0 auto;
+    text-align: center;
+}
+
 
 * {
     -webkit-box-sizing: border-box;
@@ -169,8 +181,13 @@ button:focus,
 }
 
 .grid_item {
-    background-color: lightgray;
+    background-color: white;
     padding: 20px;
+}
+
+.grid_item img {
+    width: 500px;
+
 }
 
 .grid_item:last-child {
@@ -183,6 +200,11 @@ button:focus,
     -ms-grid-row-span: 2;
     grid-row-end: 3;
 }
+
+form {
+    width: 50px;
+}
+
 
 @-webkit-keyframes color-change {
     from {
@@ -318,6 +340,11 @@ button:focus,
     .page-header img {
         width: 100px;
         height: 100%;
+    }
+
+    .profile_portrait {
+        width: 100%;
+        height: auto;
     }
 
 }
