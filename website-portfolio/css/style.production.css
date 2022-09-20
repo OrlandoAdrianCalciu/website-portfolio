@@ -3,11 +3,22 @@ body {
     font-weight: 400;
     font-size: 16px;
     line-height: 1.6;
-    background-color: #219ebc;
+    /* background-color: #219ebc; */
+    background-image: url("D:/Work/CareerFoundary/Portfolio/img/background.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+
+h1,
+h2,
+h3 {
+    color: white;
 }
 
 h1 {
-    font-size: 30px;
+    font-size: 50px;
     font-weight: 700;
     font-variant: small-caps;
     text-decoration: underline;
@@ -23,12 +34,17 @@ h3 {
     font-weight: 700;
 }
 
+p {
+    color: white;
+    font-size: medium;
+}
+
 a {
-    color: black;
+    color: white;
 }
 
 a:visited {
-    color: #023047;
+    color: rgb(235, 235, 235);
 }
 
 a:hover,
@@ -37,11 +53,12 @@ a:focus {
 }
 
 a:active {
-    color: #023047;
+    color: rgb(235, 235, 235);
 }
 
-.social-media a {
+.social-media {
     text-decoration: none;
+
 }
 
 button {
@@ -49,9 +66,9 @@ button {
     text-decoration: none;
     border: none;
     font-family: inherit;
-    background-color: #357b70;
+    background-color: white;
     font-size: 16px;
-    color: white;
+    color: black;
     padding: 10px;
     border-radius: 3px;
     border-bottom: 2px solid #00000003;
@@ -67,7 +84,7 @@ button {
     text-decoration: none;
     border: none;
     font-family: inherit;
-    background-color: #357b70;
+    background-color: black;
     font-size: 16px;
     color: white;
     padding: 10px;
@@ -105,7 +122,7 @@ button:focus,
 }
 
 .page-footer {
-    margin-top: 15%;
+    margin-top: 3%;
     clear: both;
     display: -webkit-box;
     display: -ms-flexbox;
@@ -120,6 +137,13 @@ button:focus,
 .profile {
     max-width: 700px;
     margin: 0 auto;
+    text-align: center;
+}
+
+table {
+    margin-left: auto;
+    margin-right: auto;
+    color: white
 }
 
 .profile_work {
@@ -138,6 +162,7 @@ button:focus,
     -webkit-box-flex: 1;
     -ms-flex: 1 1 100px;
     flex: 1 1 100px;
+    text-align: center;
 }
 
 .page-header {
@@ -181,7 +206,8 @@ button:focus,
 }
 
 .grid_item {
-    background-color: white;
+    background-color: transparent;
+    border: 5px solid black;
     padding: 20px;
 }
 
