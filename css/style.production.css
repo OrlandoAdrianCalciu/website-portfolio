@@ -4,7 +4,7 @@ body {
     font-size: 16px;
     line-height: 1.6;
     /* background-color: #219ebc; */
-    background-image: url("D:/Work/CareerFoundary/Portfolio/img/background.jpg");
+    background-image: url("https://user-images.githubusercontent.com/105219302/191303896-8f6e4fe3-4c1b-4cde-84f0-dae1e3ac11de.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -34,7 +34,8 @@ h3 {
     font-weight: 700;
 }
 
-p, span {
+p,
+span {
     color: white;
     font-size: medium;
 }
