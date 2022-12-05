@@ -3,18 +3,21 @@ body {
     font-weight: 400;
     font-size: 16px;
     line-height: 1.6;
-    /* background-color: #219ebc; */
-    background-image: url("https://user-images.githubusercontent.com/105219302/191303896-8f6e4fe3-4c1b-4cde-84f0-dae1e3ac11de.jpg");
+    background-color: #edede9;
+    /* background-image: url("https://user-images.githubusercontent.com/105219302/191303896-8f6e4fe3-4c1b-4cde-84f0-dae1e3ac11de.jpg"); */
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
 }
 
+.contact-main {
+    text-align: center;
+}
 
 h1,
 h2,
 h3 {
-    color: white;
+    color: black;
 }
 
 h1 {
@@ -36,16 +39,16 @@ h3 {
 
 p,
 span {
-    color: white;
+    color: black;
     font-size: medium;
 }
 
 a {
-    color: white;
+    color: black;
 }
 
 a:visited {
-    color: rgb(235, 235, 235);
+    color: rgb(27, 27, 27);
 }
 
 a:hover,
@@ -54,7 +57,7 @@ a:focus {
 }
 
 a:active {
-    color: rgb(235, 235, 235);
+    color: rgb(27, 27, 27);
 }
 
 .social-media {
@@ -67,7 +70,7 @@ button {
     text-decoration: none;
     border: none;
     font-family: inherit;
-    background-color: white;
+    background-color: black;
     font-size: 16px;
     color: black;
     padding: 10px;
@@ -83,9 +86,9 @@ button {
 .button {
     display: inline-block;
     text-decoration: none;
-    border: none;
+    border: none;social
     font-family: inherit;
-    background-color: black;
+    background-color: #d6ccc2;
     font-size: 16px;
     color: white;
     padding: 10px;
@@ -105,6 +108,7 @@ button:focus,
     cursor: pointer;
     opacity: 0.8;
 }
+
 
 .button_secondary {
     background-color: #e0b354;
@@ -144,7 +148,7 @@ button:focus,
 table {
     margin-left: auto;
     margin-right: auto;
-    color: white
+    color: black;
 }
 
 .profile_work {
@@ -195,7 +199,7 @@ table {
 .navigation-list li {
     display: inline-block;
     margin-left: 15px;
-}
+}main
 
 .grid {
     display: -ms-grid;
@@ -238,8 +242,8 @@ table {
 }
 
 .grid_item img {
-    max-width: 500px;
-    max-height: 255px;
+    width: 500px;
+    height: 255px;
 
 }
 
@@ -297,7 +301,7 @@ table {
     -ms-grid-row: 1;
     grid-row-start: 1;
     -ms-grid-row-span: 2;
-    grid-row-end: 3;
+    grid-row-end: 2;
 }
 
 .form {
