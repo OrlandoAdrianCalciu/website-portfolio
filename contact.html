@@ -36,9 +36,9 @@
         </header>
     </header>
     <main class="contact-main">
-        <h1>Contact Me</h1>
+        <h1>Contact Me 	&#9743;</h1>
         <!-- <div class="form">
-            <form action="" method="post" id="contact-form">
+            <form action="mailto:orlandoadrian544@gmail.com" method="post" id="contact-form">
                 <label class="standard-label" for="contact-name">*Name:</label>
                 <input type="text" required id="contact-name" placeholder="Full Name"><br>
                 <label class="standard-label" for="contact-email">*E-mail: </label>
@@ -52,19 +52,20 @@
                 <br>
                 <input type="submit" value="Send message">
             </form> -->
-            <br>
-        
+        <br>
 
-        <p>Adress:<br>
-        Orlando-Adrian Calciu<br>
-        Ingolstädter Str. 49E<br>
-        85080 Gaimersheim<br>
-        Deutschland<br></p>
+<h3>Get in touch</h3>
+        <p>If you have any questions, please feel free to drop me a line. I'll get back to you as soon as I can. Thank you!</p>
         <br>
         <!-- <span>Tel:</span> <a href="tel:+4915750247416">+49 157 50247416</a> <br> -->
-        <span>Mail to:</span>
+        <div class="category-list-title">
+            <a id="show" href="#" onclick="show();">View phone:</a><br>
+            <!-- Similar to mailto you tel in html this will allow you to make a call directly -->
+            <a id="phone" href="tel:+49 157 50247416">+49 157 50247416</a>
+        </div>
+        <span>E-mail:</span>
         <a href="mailto:orlandoadrian.calciu@outlook.com">orlandoadrian.calciu@outlook.com</a>
-    </div>
+        </div>
     </main>
     <footer class="page-footer">
         <p>Find me on</p>
@@ -81,6 +82,13 @@
 
 
     <script src="js/tota11y.min.js"></script>
+    <script>
+        document.getElementById("show").onclick = function () { show() };
+
+        function show() {
+            document.getElementById("phone").style.display = "block";
+        }
+    </script>
 </body>
 
 </html>

@@ -86,9 +86,9 @@ button {
 .button {
     display: inline-block;
     text-decoration: none;
-    border: none;social
-    font-family: inherit;
-    background-color: #d6ccc2;
+    border: none;
+    social font-family: inherit;
+    background-color: #E6DDC4;
     font-size: 16px;
     color: white;
     padding: 10px;
@@ -121,9 +121,10 @@ button:focus,
 
 .profile_portrait {
     float: left;
-    width: 250px;
+    width: 200px;
     margin-right: 40px;
     border-radius: 50%;
+
 }
 
 .page-footer {
@@ -139,8 +140,17 @@ button:focus,
     text-align: center;
 }
 
+.page-footer-home {
+    margin-top: 22%;
+    text-align: center;
+}
+
+#phone {
+    display: none;
+  }
+
 .profile {
-    max-width: 700px;
+    max-width: 600px;
     margin: 0 auto;
     text-align: center;
 }
@@ -155,6 +165,57 @@ table {
     max-width: 1500px;
     margin: 0 auto;
     text-align: center;
+}
+
+.dev-skills{
+    display: flex;
+    margin-top: 10%;
+  min-height: 10vh;
+  align-items: center;
+  justify-content: center;
+  /* background: #dbdbd8; */
+  /* border: .75em solid white; */
+  padding: 2em;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.dev-skills h3 {
+    color: #2E3C40;
+    font-size: 1.2em;
+    font-weight: 600;
+    line-height: 1;
+    padding-bottom: 0.5em;
+    margin: 0 0 0.142857143em;
+    border-bottom: 2px solid #bd3b3b;
+    transition: color .45s ease, border .45s ease;
+}
+
+.dev-skills p {
+    /* opacity: 0; */
+    color: black;
+    font-weight: 600;
+    line-height: 1.0;
+    margin: 0 0 1.25em;
+    transition: opacity .45s ease, transform .5s ease;
+}
+
+.first-p {
+    padding-top: 20px;
+}
+
+
+.skills{
+    margin-right: 50px;
+    display: flex;
+  flex-direction: column;
+  max-width: 12.75em;
+  height: 20.75em;
+  border-radius: .5em;
+  text-decoration: none;
+  background: white;
+  margin: 1em;
+  padding: 2.75em 2.5em;
+  box-shadow: 0 0 15px 3px #2E3C40;
 }
 
 
@@ -199,9 +260,9 @@ table {
 .navigation-list li {
     display: inline-block;
     margin-left: 15px;
-}main
+}
 
-.grid {
+main .grid {
     display: -ms-grid;
     display: grid;
     -ms-grid-columns: 1fr 20px 1fr 20px 1fr;
@@ -316,6 +377,28 @@ table {
     left: 50%;
     transform: translate(-50%, -50%);
 }
+
+.flag {
+    margin: auto;
+    height: 20px;
+    width: 20px;
+    overflow: hidden;
+    border-radius: 5px;
+  }
+  .stripe {
+    display: block;
+    width: 100%;
+    height: 33.3%;
+  }
+  .black {
+    background-color: #000000;
+  }
+  .red {
+    background-color: #FF0000;
+  }
+  .gold{
+    background-color: #FFCC00;
+  }
 
 
 @-webkit-keyframes color-change {
@@ -455,7 +538,7 @@ table {
     }
 
     .profile_portrait {
-        width: 100%;
+        width: 30%;
         height: auto;
     }
 
