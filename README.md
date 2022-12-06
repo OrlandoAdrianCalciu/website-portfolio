@@ -12,3 +12,4 @@ Live Demo: [Portfolio](https://orlandoadriancalciu.github.io/website-portfolio/)
 
 - HTML
 - CSS
+- JavaScript
