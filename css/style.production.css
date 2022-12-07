@@ -147,7 +147,7 @@ button:focus,
 
 #phone {
     display: none;
-  }
+}
 
 .profile {
     max-width: 600px;
@@ -167,16 +167,16 @@ table {
     text-align: center;
 }
 
-.dev-skills{
+.dev-skills {
     display: flex;
     margin-top: 10%;
-  min-height: 10vh;
-  align-items: center;
-  justify-content: center;
-  /* background: #dbdbd8; */
-  /* border: .75em solid white; */
-  padding: 2em;
-  font-family: 'Open Sans', sans-serif;
+    min-height: 10vh;
+    align-items: center;
+    justify-content: center;
+    /* background: #dbdbd8; */
+    /* border: .75em solid white; */
+    padding: 2em;
+    font-family: 'Open Sans', sans-serif;
 }
 
 .dev-skills h3 {
@@ -204,18 +204,18 @@ table {
 }
 
 
-.skills{
+.skills {
     margin-right: 50px;
     display: flex;
-  flex-direction: column;
-  max-width: 12.75em;
-  height: 20.75em;
-  border-radius: .5em;
-  text-decoration: none;
-  background: white;
-  margin: 1em;
-  padding: 2.75em 2.5em;
-  box-shadow: 0 0 15px 3px #2E3C40;
+    flex-direction: column;
+    max-width: 12.75em;
+    height: 20.75em;
+    border-radius: .5em;
+    text-decoration: none;
+    background: white;
+    margin: 1em;
+    padding: 2.75em 2.5em;
+    box-shadow: 0 0 15px 3px #2E3C40;
 }
 
 
@@ -384,43 +384,47 @@ main .grid {
     width: 20px;
     overflow: hidden;
     border-radius: 5px;
-  }
-  .stripe {
+}
+
+.stripe {
     display: block;
     width: 100%;
     height: 33.3%;
-  }
-  .black {
-    background-color: #000000;
-  }
-  .red {
-    background-color: #FF0000;
-  }
-  .gold{
-    background-color: #FFCC00;
-  }
+}
 
-  .card {
+.black {
+    background-color: #000000;
+}
+
+.red {
+    background-color: #FF0000;
+}
+
+.gold {
+    background-color: #FFCC00;
+}
+
+.card {
     /* Add shadows to create the "card" effect */
-    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
     transition: 0.3s;
     width: 50%;
     align-items: center;
     margin-left: 470px;
-  }
-  
-  /* On mouse-over, add a deeper shadow */
-  .card:hover {
-    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
-  }
-  
-  /* Add some padding inside the card container */
-  .container {
-    padding: 2px 16px;
-  }
+}
 
-  #fcf-form {
-    display:block;
+/* On mouse-over, add a deeper shadow */
+.card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+
+/* Add some padding inside the card container */
+.container {
+    padding: 2px 16px;
+}
+
+#fcf-form {
+    display: block;
 }
 
 .fcf-body {
@@ -475,7 +479,8 @@ main .grid {
     border: 1px solid #313131;
 }
 
-select.fcf-form-control[size], select.fcf-form-control[multiple] {
+select.fcf-form-control[size],
+select.fcf-form-control[multiple] {
     height: auto;
 }
 
@@ -536,7 +541,8 @@ label.fcf-label {
     text-decoration: none;
 }
 
-.fcf-btn:focus, .fcf-btn.focus {
+.fcf-btn:focus,
+.fcf-btn.focus {
     outline: 0;
     box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25);
 }
@@ -553,14 +559,16 @@ label.fcf-label {
     border-color: #0062cc;
 }
 
-.fcf-btn-primary:focus, .fcf-btn-primary.focus {
+.fcf-btn-primary:focus,
+.fcf-btn-primary.focus {
     color: #fff;
     background-color: #0069d9;
     border-color: #0062cc;
     box-shadow: 0 0 0 0.2rem rgba(38, 143, 255, 0.5);
 }
 
-.fcf-btn-lg, .fcf-btn-group-lg>.fcf-btn {
+.fcf-btn-lg,
+.fcf-btn-group-lg>.fcf-btn {
     padding: 0.5rem 1rem;
     font-size: 1.25rem;
     line-height: 1.5;
@@ -576,10 +584,12 @@ label.fcf-label {
     margin-top: 0.5rem;
 }
 
-input[type="submit"].fcf-btn-block, input[type="reset"].fcf-btn-block, input[type="button"].fcf-btn-block {
+input[type="submit"].fcf-btn-block,
+input[type="reset"].fcf-btn-block,
+input[type="button"].fcf-btn-block {
     width: 100%;
 }
- 
+
 @-webkit-keyframes color-change {
     from {
         fill: #edc655;
