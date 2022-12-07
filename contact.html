@@ -36,35 +36,56 @@
         </header>
     </header>
     <main class="contact-main">
-        <h1>Contact Me 	&#9743;</h1>
-        <!-- <div class="form">
-            <form action="mailto:orlandoadrian544@gmail.com" method="post" id="contact-form">
-                <label class="standard-label" for="contact-name">*Name:</label>
-                <input type="text" required id="contact-name" placeholder="Full Name"><br>
-                <label class="standard-label" for="contact-email">*E-mail: </label>
-                <input type="email" required id="contact-email" placeholder="example@example.com">
-                <br>
-                <label class="standard-label" for="contact-phone">Telephone:</label>
-                <input type="tel" pattern="\d{3}[\-]\d{3}[\-]\d{4}" id="contact-phone">
-                <br>
-                <label class="standard-label" for="contact-message">*Message:</label>
-                <textarea required maxlength="240" id="contact-message"></textarea>
-                <br>
-                <input type="submit" value="Send message">
-            </form> -->
+        <h1>Contact Me &#9743;</h1>
         <br>
 
-<h3>Get in touch</h3>
-        <p>If you have any questions, please feel free to drop me a line. I'll get back to you as soon as I can. Thank you!</p>
+        <div class="card">
+            <div class="container">
+                <h3>Get in touch</h3>
+        <p>If you have any questions, please feel free to drop me a line. I'll get back to you as soon as I can. Thank
+            you!</p>
         <br>
-        <!-- <span>Tel:</span> <a href="tel:+4915750247416">+49 157 50247416</a> <br> -->
+                <form action="https://getform.io/f/ac3ccc4d-8e89-4559-bb2b-d3f6733bd8cc" method="POST" id="fcf-form-id"
+                    class="fcf-form-class">
+                    <div class="fcf-form-group">
+                        <label for="name" class="fcf-label">Your name</label>
+                        <div class="fcf-input-group">
+                            <input type="text" id="Name" name="name" class="fcf-form-control" required placeholder="Name">
+                        </div>
+                    </div>
+
+                    <div class="fcf-form-group">
+                        <label for="email" class="fcf-label">Your email address</label>
+                        <div class="fcf-input-group">
+                            <input type="email" id="Email" name="email" class="fcf-form-control" required placeholder="Email">
+                        </div>
+                    </div>
+
+                    <div class="fcf-form-group">
+                        <label for="message" class="fcf-label">Your message</label>
+                        <div class="fcf-input-group">
+                            <textarea id="Message" name="message" class="fcf-form-control" rows="6" maxlength="3000"
+                                required placeholder="Type here..."></textarea>
+                        </div>
+                    </div>
+
+                    <div class="fcf-form-group">
+                        <button type="submit" id="fcf-button"
+                            class="fcf-btn fcf-btn-primary fcf-btn-lg fcf-btn-block">Send Message</button>
+                    </div>
+
+                </form>
+            </div>
+        </div>
+        <br>
         <div class="category-list-title">
             <a id="show" href="#" onclick="show();">View phone:</a><br>
             <!-- Similar to mailto you tel in html this will allow you to make a call directly -->
             <a id="phone" href="tel:+49 157 50247416">+49 157 50247416</a>
         </div>
-        <span>E-mail:</span>
-        <a href="mailto:orlandoadrian.calciu@outlook.com">orlandoadrian.calciu@outlook.com</a>
+        <div>
+            <span>E-mail:</span>
+            <a href="mailto:orlandoadrian.calciu@outlook.com">orlandoadrian.calciu@outlook.com</a>
         </div>
     </main>
     <footer class="page-footer">
